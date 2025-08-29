@@ -2,7 +2,6 @@ import { defineConfig } from 'win';
 
 export default defineConfig({
   plugins: ['../src'],
-  example: {
-    foo: 'bar',
-  },
+  presets: ['@winner-fed/preset-vue2'],
+  iconsLegacy: {}
 });

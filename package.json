@@ -1,20 +1,27 @@
 {
-  "name": "winjs-plugin-template",
+  "name": "@winner-fed/plugin-icons-legacy",
+  "description": "A WinJS plugin for legacy SVG icons solution, specifically designed for Vue2 projects using svg-sprite-loader sprite technology",
   "keywords": [
     "winjs",
     "plugin",
-    "template",
+    "svg",
+    "icons",
+    "sprite",
+    "vue2",
+    "legacy",
+    "svg-sprite-loader",
+    "svgo",
+    "symbol",
     "winner-fed",
     "winjs-dev",
-    "rslib",
+    "webpack",
     "rsbuild",
-    "typescript",
-    "biome"
+    "typescript"
   ],
-  "version": "0.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winjs-dev/winjs-plugin-template.git"
+    "url": "git+https://github.com/winjs-dev/winjs-plugin-icons-legacy.git"
   },
   "license": "MIT",
   "type": "module",
@@ -57,6 +64,7 @@
     "@winner-fed/winjs": "*"
   },
   "peerDependencies": {
+    "@winner-fed/bundler-webpack": "*",
     "@winner-fed/utils": "*"
   },
   "peerDependenciesMeta": {
